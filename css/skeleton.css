@@ -48,6 +48,12 @@
     padding: 0; }
 }
 
+@@media (max-width: 600px) {
+  .navitems{
+    visibility: hidden;
+  }
+}
+
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
