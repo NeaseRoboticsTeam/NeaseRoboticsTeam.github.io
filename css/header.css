@@ -10,9 +10,35 @@
   box-shadow:0px -5px 10px grey
 }
 
+.footerdiv{
+  width:100%;
+  height:40px;
+  background-color:#d9d9d9;
+  opacity: .9;
+  position:fixed;
+  bottom:0px;
+  left:0px;
+  z-index:1;
+}
+
 .bg{
   background-color: white;
   margin-top: 10px;
-  border-bottom: 5px solid #e6e6e6;
   padding: 10px;
+}
+
+.uggreen{
+  border-bottom: 5px solid #ccffcc;
+}
+
+.uggrey{
+  border-bottom: 5px solid #e6e6e6;
+}
+
+.ugred{
+  border-bottom: 5px solid #ffcccc;
+}
+
+.ugyellow{
+  border-bottom: 5px solid #ffffb3;
 }
