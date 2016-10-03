@@ -15,7 +15,7 @@
   height:40px;
   background-color:#d9d9d9;
   opacity: .9;
-  position:fixed;
+  position:relative;
   bottom:0px;
   left:0px;
   z-index:1;
