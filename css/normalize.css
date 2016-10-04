@@ -16,6 +16,19 @@ html {
  * Remove default margin.
  */
 
+a,
+img {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+/*makes items unselecable make sure to use <h> or <p> for informative text so users can select text*/
+
 a:link {
   text-decoration: none;
 }
