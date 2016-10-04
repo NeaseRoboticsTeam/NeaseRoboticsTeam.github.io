@@ -51,3 +51,11 @@
 .active:hover{
   color:grey;
 }
+
+.inactive{
+  color:#0dc2e2;
+}
+
+.inactive:hover{
+  color:#077184;
+}
