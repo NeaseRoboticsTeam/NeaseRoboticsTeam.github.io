@@ -43,3 +43,7 @@
 .ugyellow{
   border-bottom: 5px solid #ffffb3;
 }
+
+.active{
+  color:grey;
+}
