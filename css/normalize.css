@@ -18,12 +18,15 @@ html {
 
 a:link {
   text-decoration: none;
+  color: #0bbedd;
 }
 a:visited {
   text-decoration: none;
+  color: #0bbedd;
 }
 a:hover, a:focus {
   text-decoration: none;
+  color: #07879e;
 }
 
 body {
