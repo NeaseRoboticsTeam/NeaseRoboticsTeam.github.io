@@ -8,6 +8,7 @@
   left:0px;
   z-index:1;
   box-shadow:0px -5px 10px grey
+  selector { cursor: none; }
 }
 
 .footerdiv{
