@@ -1,3 +1,15 @@
+@media (min-width: 601px) {
+  .headerdiv{
+    position:fixed;
+  }
+}
+
+@media (max-width: 600px) {
+  .headerdiv{
+    position:absolute;
+  }
+}
+
 .concolor{
   background-color: white;
   padding-bottom: 10px;
@@ -8,12 +20,34 @@
   height:76px;
   background-color:white;
   opacity: .99;
-  position:fixed;
   top:0px;
   left:0px;
   z-index:4;
-  box-shadow:0px -5px 10px grey
-  cursor:none;
+  box-shadow:0px -5px 10px grey;
+}
+
+#di{
+  position: relative;
+  top: -20px;
+  background-color: white;
+}
+
+.droppeditem{
+  width:300px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.dropitemsimgdown{
+  height:64px;
+  transition: 0.5s ease-out;
+  transform: rotate(180deg);
+}
+
+.dropitemsimgup{
+  height:64px;
+  transition: .5s ease-out;
+  transform: rotate(0deg);
 }
 
 .footerdiv{
