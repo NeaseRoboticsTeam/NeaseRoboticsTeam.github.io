@@ -49,8 +49,16 @@
 }
 
 @media (min-width: 601px) {
+  #di,
+  .droppeditem,
   .dropitems{
     display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .droppeditem{
+    display: block;
   }
 }
 
