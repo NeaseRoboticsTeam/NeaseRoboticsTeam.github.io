@@ -14,7 +14,7 @@ var nsOptions =
     pauseOnHover: true,
     keyboardNav: true,
     before: null,
-    license: "b2r804"
+    license: "can some one buy me a license?"
 };
 
 var nslider = new NinjaSlider(nsOptions);
