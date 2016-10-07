@@ -1,7 +1,7 @@
 function screenSizeGrab(){
   var width = window.innerWidth;
   var height = window.innerHeight;
-  document.getElementById('homeimg').style.width = width + "px";
+  document.getElementById('njimg').style.width = width + "px";
 }
 
 function mobileNav(){

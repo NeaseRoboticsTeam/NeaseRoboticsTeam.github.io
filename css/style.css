@@ -22,7 +22,7 @@
   opacity: .99;
   top:0px;
   left:0px;
-  z-index:4;
+  z-index:100000;
   box-shadow:0px -5px 10px grey;
 }
 
