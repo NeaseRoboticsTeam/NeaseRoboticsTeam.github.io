@@ -13,8 +13,7 @@ var nsOptions =
     navigateByTap: true,
     pauseOnHover: true,
     keyboardNav: true,
-    before: null,
-    license: "mylicense"
+    before: null
 };
 
 var nslider = new NinjaSlider(nsOptions);
