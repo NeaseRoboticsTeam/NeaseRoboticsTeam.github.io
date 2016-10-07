@@ -26,6 +26,7 @@
   <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script type="text/javascript" src="js/sheet.js"></script>
+  <script type="text/javascript" src="js/orbit.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -54,11 +55,28 @@
     </center>
   </div>
   <!--NAVIGATION BUMPER-->
-  <!--<div style="width:100%;height:76px;"></div>--><!--Used for non 'home' pages, to make the content start where the navigation stops-->
+  <div style="width:100%;height:76px;"></div><!--Used for non 'home' pages, to make the content start where the navigation stops-->
   <!--HERO-->
-  <center style="z-index:3;">
-    <div id="homeimg" style='background-image:url("images/nrtlogo.png");width:400px;height:400px;'></div>
-  </center>
+  <ul class="example-orbit" data-orbit>
+  <li>
+    <img src="images/favicon.png" alt="slide 1" />
+    <div class="orbit-caption">
+      Caption One.
+    </div>
+  </li>
+  <li class="active">
+    <img src="../assets/img/examples/andromeda-orbit.jpg" alt="slide 2" />
+    <div class="orbit-caption">
+      Caption Two.
+    </div>
+  </li>
+  <li>
+    <img src="../assets/img/examples/launch-orbit.jpg" alt="slide 3" />
+    <div class="orbit-caption">
+      Caption Three.
+    </div>
+  </li>
+</ul>
   <!--CONTAINER-->
   <div class="container concolor" style="z-index:2;">
     <div class="row">
