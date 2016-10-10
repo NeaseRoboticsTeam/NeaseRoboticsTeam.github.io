@@ -7,8 +7,6 @@ window.onload = function() {
 
   var arrowHeight = heroHeight / 2 + heroTop - heroNextHeight / 2;
 
-  alert("arrowHeight");
-
   document.getElementById('hero-right-arrow').style.top = arrowHeight + "px";
   document.getElementById('hero-left-arrow').style.top = arrowHeight + "px";
 
