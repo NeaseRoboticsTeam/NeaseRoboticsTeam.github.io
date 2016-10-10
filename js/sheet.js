@@ -1,7 +1,8 @@
 function screenSizeGrab(){
   var width = window.innerWidth;
   var height = window.innerHeight;
-  document.getElementById('njimg').style.width = width + "px";
+  var heroHeight = height / 2;
+  document.getElementById('hero-slider').style.width = width + "px";
 }
 
 function mobileNav(){
