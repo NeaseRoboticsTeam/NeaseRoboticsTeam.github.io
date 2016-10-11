@@ -1,10 +1,3 @@
-function screenSizeGrab(){
-  var width = window.innerWidth;
-  var height = window.innerHeight;
-  var heroHeight = height / 2;
-  document.getElementById('hero-slider').style.width = width + "px";
-}
-
 function mobileNav(){
 
   if(document.getElementById("di").value!="ON"){

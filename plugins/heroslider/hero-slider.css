@@ -1,4 +1,5 @@
 #hero-slider{
+  position: inherit;
   margin: 0px;
   padding: 0px;
 }
@@ -49,10 +50,18 @@
   }
 }
 
-.hs-shown {
-  display: block;
+.hs-target {
+  transition: 1s;
+  position: absolute;
+  top:76px;
 }
 
-.hs-hidden {
-  display: none;
+.hs-cap {
+  position: absolute;
+  right: 10px;
+}
+
+.hs-pos {
+  position: relative;
+  top: -30px;
 }
