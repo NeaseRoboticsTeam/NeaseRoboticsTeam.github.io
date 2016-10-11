@@ -20,12 +20,12 @@
   width: 100%;
 }
 
-#hero-left-arrow {
+#hero-prev {
   position: absolute;
   left: 0px;
 }
 
-#hero-right-arrow {
+#hero-next {
   position: absolute;;
   right: 0px;
 }

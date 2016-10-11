@@ -49,27 +49,27 @@
   <!--BUMPER-->
   <div style="width:100%;height:76px;"></div>
   <!--HERO-->
-  <div id="hero-slider">
+  <div id="hero-slider" onresize="alert()">
     <ul>
-      <li id="hero-slider-1" class="hs-shown">
+      <li id="hero-slider-1" class="hs-target" style="display:block;">
         <div class="hs-img" style="background-image:url('images/img1.jpg');"></div>
         <div class="caption">@NeaseRoboticsTeam</div>
       </li>
-      <li id="hero-slider-2" class="hs-hidden">
+      <li id="hero-slider-2" class="hs-target" style="display:none;">
         <div class="hs-img" style="background-image:url('images/img2.jpg');"></div>
         <div class="caption">@NeaseRoboticsTeam</div>
       </li>
-      <li id="hero-slider-3" class="hs-hidden">
+      <li id="hero-slider-3" class="hs-target" style="display:none;">
         <div class="hs-img" style="background-image:url('images/img3.jpg');"></div>
         <div class="caption">@NeaseRoboticsTeam</div>
       </li>
-      <li id="hero-slider-4" class="hs-hidden">
+      <li id="hero-slider-4" class="hs-target" style="display:none;">
         <div class="hs-img" style="background-image:url('images/img4.jpg');"></div>
         <div class="caption">@NeaseRoboticsTeam</div>
       </li>
     </ul>
-    <div id="hero-left-arrow" onclick="HeroSlider()">left</div>
-    <div id="hero-right-arrow">right</div>
+    <div id="hero-prev">prev</div>
+    <div id="hero-next">next</div>
   </div>
   <!--CONTAINER-->
   <div class="container concolor" style="z-index:2;">
@@ -84,7 +84,7 @@
     <div class="row">
       <div class="one-half column bg uggrey">
         <h3>Header</h3>
-        <p id="counter">
+        <p id="demo">
           test
         </p>
       </div>
