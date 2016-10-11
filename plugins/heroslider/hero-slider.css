@@ -51,7 +51,7 @@
 }
 
 .hs-target {
-  transition: 1s;
+  transition: 0.5s ease-out;
   position: absolute;
   top:76px;
 }
