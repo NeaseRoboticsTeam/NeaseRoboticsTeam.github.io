@@ -65,3 +65,22 @@
   position: relative;
   top: -30px;
 }
+
+.hs-center {
+  position: relative;
+  top: calc(-1*300px);
+}
+
+.hs-tag {
+  color:white;
+  text-shadow: 0px 0px 5px black;
+}
+
+.hs-tag:hover {
+  color:darkgrey;
+  cursor: pointer;
+}
+
+.hs-tag:visited {
+  color:white;
+}
