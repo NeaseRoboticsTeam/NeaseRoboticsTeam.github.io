@@ -68,8 +68,8 @@
   }
 }
 
-/* For devices larger than 550px */
-@media (min-width: 550px) {
+/* For devices larger than 800px */
+@media (min-width: 800px) {
   .container {
     width: 80%; }
   .column,
