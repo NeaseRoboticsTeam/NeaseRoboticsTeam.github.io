@@ -7,7 +7,7 @@ var number_of_slides = document.querySelectorAll('#hero-slider .hs-target').leng
 
 window.onload = function() {
 
-  var heroHeight = document.getElementById("hero-slider-1").offsetHeight;
+  var heroHeight = document.getElementById("hs-grab-for-fitting").offsetHeight;
   var heroWidth = document.getElementById("hero-slider").offsetWidth;
   var heroNextHeight = document.getElementById("hero-next").offsetHeight;
   var heroTop = document.getElementById("hero-slider").offsetTop;
@@ -28,7 +28,7 @@ window.onload = function() {
 }
 
 document.getElementsByTagName("BODY")[0].onresize = function() {
-  var heroHeight = document.getElementById("hero-slider-1").offsetHeight;
+  var heroHeight = document.getElementById("hs-grab-for-fitting").offsetHeight;
   var heroWidth = document.getElementById("hero-slider").offsetWidth;
   var heroNextHeight = document.getElementById("hero-next").offsetHeight;
   var heroTop = document.getElementById("hero-slider").offsetTop;
