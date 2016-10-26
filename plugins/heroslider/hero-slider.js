@@ -12,7 +12,7 @@ window.onload = function() {
   var heroNextHeight = document.getElementById("hero-next").offsetHeight;
   var heroTop = document.getElementById("hero-slider").offsetTop;
 
-  var arrowHeight = heroHeight / 2 + heroTop - heroNextHeight / 2;
+  var arrowHeight = heroHeight / 2 + heroTop - heroNextHeight / 2 - 15;
 
   var width = window.innerWidth;
   var height = window.innerHeight;
