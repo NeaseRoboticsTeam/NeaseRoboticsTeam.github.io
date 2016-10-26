@@ -83,12 +83,27 @@
 
 .active:hover{
   color:grey;
+  cursor: pointer;
 }
 
 .inactive{
   color:#0dc2e2;
+  cursor: pointer;
 }
 
 .inactive:hover{
   color:#077184;
+}
+
+.footer-link{
+  color:black;
+}
+
+.footer-link:hover{
+  color:gray;
+  cursor: pointer;
+}
+
+.footer-link:visited{
+  color:black;
 }
