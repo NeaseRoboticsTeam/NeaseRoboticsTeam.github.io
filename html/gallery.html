@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-<!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>NRT - Homepage</title>
   <meta name="description" content="">
@@ -11,14 +11,14 @@
   <link rel="apple-touch-icon image_src" href="../images/FINAL.png">
   <link rel="icon" type="image/x-icon" href="../images/FINAL.png">
 
-<!-- Mobile Specific Metas –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Mobile Specific Metas –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- FONT –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- FONT –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,200,600" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Rosario" rel="stylesheet">
 
-<!-- CSS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- CSS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/skeleton.css">
   <link rel="stylesheet" href="../css/style.css">
@@ -33,13 +33,12 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="../images/FINAL.png">
 
-<!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="../images/FINAL.png">
   </head>
-<body style="background-color:whitesmoke" onload="screenSizeGrab()" onresize="screenSizeGrab()">
+<body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Primary Page Layout  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <!--NAVIGATION-->
   <div class="headerdiv">
     <img src="../images/FINAL.png" style="height:64px;padding:6px;">
@@ -51,10 +50,11 @@
     <div class="dropitems" style="float:right;padding-right:4%;"><img id="dii" src="../images/menuicon.png" class="dropitemsimgdown" onclick="mobileNav()"></div>
     <center>
     <div id="di" style="display:none;">
-      <a class="droppeditem active" href="../index.html"><h3>Home</h3></a>
-      <a class="droppeditem inactive" href="gallery.html"><h3>Gallery</h3></a>
+      <a class="droppeditem inactive" href="../index.html"><h3>Home</h3></a>
+      <a class="droppeditem active" href="gallery.html"><h3>Gallery</h3></a>
       <a class="droppeditem inactive" href="robots.html"><h3>Robots</h3></a>
       <a class="droppeditem inactive" href="team.html"><h3>Team</h3></a>
+      <a class="droppeditem inactive" href="donate.html"><h3>Donate</h3></a>
     </div>
     </center>
   </div>
@@ -100,18 +100,21 @@
   <div class="footerdiv">
     <center>
       <div style="padding-top: 0.8rem;">
-        <div class="navitems" style="display:inline-block;padding-right:4%;"><a class="text">Contact</a></div>
+        <div class="navitems" style="display:inline-block;padding-right:4%;"><a class="footer-link">Contact</a></div>
         <div class="navitems" style="display:inline-block;padding-right:4%;"><a>|</a></div>
-        <div class="navitems" style="display:inline-block;padding-right:4%;"><a>Email</a></div>
+        <div class="navitems" style="display:inline-block;padding-right:4%;"><a class="footer-link">Email</a></div>
         <div class="navitems" style="display:inline-block;padding-right:4%;"><a>|</a></div>
-        <div class="navitems" style="display:inline-block;padding-right:4%;"><a>Info</a></div>
+        <div class="navitems" style="display:inline-block;padding-right:4%;"><a class="footer-link" href="https://docs.google.com/document/d/1qJdiVIv8Zdj6EigkwbBgLISv7wl0obuym73JHkXVlrw/edit?usp=sharing">Info</a></div>
         <div class="navitems" style="display:inline-block;padding-right:4%;"><a>|</a></div>
-        <div class="navitems" style="display:inline-block;padding-right:4%;"><a>By Gunnar Bjorkman</a></div>
+        <div class="navitems" style="display:inline-block;padding-right:4%;"><a></> By GitHub</a></div>
       </div>
     </center>
   </div>
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- End Document  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- JS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="js/sheet.js"></script>
+  <!--PLUGINS-->
+  <!--Looks like there are no plugins on this page-->
 </body>
 </html>
