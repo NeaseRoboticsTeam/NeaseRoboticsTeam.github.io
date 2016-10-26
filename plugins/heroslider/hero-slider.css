@@ -100,9 +100,34 @@
   top: -30px;
 }
 
-.hs-center {
+.hs-h1-light {
   position: relative;
-  top: calc(-1*300px);
+  font-size: 72px;
+  color:white;
+  top: calc(-350px);
+  text-shadow: 0px 0px 10px black;
+}
+
+.hs-h2-light {
+  position: relative;
+  font-size: 32px;
+  color:white;
+  top: calc(-320px);
+  text-shadow: 0px 0px 10px black;
+}
+
+.hs-h1-dark {
+  position: relative;
+  font-size: 72px;
+  color:black;
+  top: calc(-350px);
+}
+
+.hs-h2-dark {
+  position: relative;
+  font-size: 32px;
+  color:black;
+  top: calc(-320px);
 }
 
 .hs-tag {
