@@ -271,6 +271,8 @@ textarea {
      -moz-appearance: none;
           appearance: none; }
 textarea {
+  resize: vertical;
+  max-height:300px;
   min-height: 65px;
   padding-top: 6px;
   padding-bottom: 6px; }
@@ -289,7 +291,7 @@ label,
 legend {
   display: block;
   margin-bottom: .5rem;
-  font-weight: 600; }
+  font-weight: 100; }
 fieldset {
   padding: 0;
   border-width: 0; }
