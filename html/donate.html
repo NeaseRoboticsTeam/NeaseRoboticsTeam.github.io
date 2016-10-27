@@ -36,14 +36,14 @@
   <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="../images/FINAL.png">
   </head>
-<body>
+<body onload="smallPageAlign()" onresize="smallPageAlign()">
 
   <!-- Primary Page Layout  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <!--NAVIGATION-->
-  <div class="headerdiv">
+  <div id="HEADER" class="headerdiv">
     <img src="../images/FINAL.png" style="height:64px;padding:6px;">
-    <div class="navitems" style="float:right;padding-right:4%;"><h5 style="margin-top: 2rem;"><a href="donate.html" class="inactive">Donate</a></h5></div>
-    <div class="navitems" style="float:right;padding-right:4%;"><h5 style="margin-top: 2rem;"><a href="team.html" class="active">Team</a></h5></div>
+    <div class="navitems" style="float:right;padding-right:4%;"><h5 style="margin-top: 2rem;"><a href="donate.html" class="active">Donate</a></h5></div>
+    <div class="navitems" style="float:right;padding-right:4%;"><h5 style="margin-top: 2rem;"><a href="team.html" class="inactive">Team</a></h5></div>
     <div class="navitems" style="float:right;padding-right:4%;"><h5 style="margin-top: 2rem;"><a href="robots.html" class="inactive">Robots</a></h5></div>
     <div class="navitems" style="float:right;padding-right:4%;"><h5 style="margin-top: 2rem;"><a href="gallery.html" class="inactive">Gallery</a></h5></div>
     <div class="navitems" style="float:right;padding-right:4%;"><h5 style="margin-top: 2rem;"><a href="../index.html" class="inactive">Home</a></h5></div>
@@ -53,51 +53,27 @@
       <a class="droppeditem inactive" href="../index.html"><h3>Home</h3></a>
       <a class="droppeditem inactive" href="gallery.html"><h3>Gallery</h3></a>
       <a class="droppeditem inactive" href="robots.html"><h3>Robots</h3></a>
-      <a class="droppeditem active" href="team.html"><h3>Team</h3></a>
-      <a class="droppeditem inactive" href="donate.html"><h3>Donate</h3></a>
+      <a class="droppeditem inactive" href="team.html"><h3>Team</h3></a>
+      <a class="droppeditem active" href="donate.html"><h3>Donate</h3></a>
     </div>
     </center>
   </div>
   <!--NAVIGATION BUMPER-->
   <div style="width:100%;height:76px;"></div><!--Used for non 'home' pages, to make the content start where the navigation stops-->
   <!--CONTAINER-->
-  <div class="container concolor" style="z-index:2;padding-bottom: 10px;background-color: whitesmoke;">
-    <div class="row">
-      <div class="one-third column bg">
-        test
+  <div id="CONTAINER" class="container" style="z-index:2;padding-bottom: 10px;background-color: whitesmoke;">
+    <div id="ROW" class="row small-page">
+      <center>
+      <div class="six bg small-page-box">
+        <h3>Sorry,</h3>
+        <p>We dont have a paypal setup currently</p>
+        <p>Please contact us <a class="link" href="contact.html">here</a> if you wish to donate</p>
       </div>
-      <div class="one-third column bg">
-        test
-      </div>
-      <div class="one-third column bg">
-        test
-      </div>
-    </div>
-    <div class="row">
-      <div class="one-third column bg">
-        test
-      </div>
-      <div class="one-third column bg">
-        test
-      </div>
-      <div class="one-third column bg">
-        test
-      </div>
-    </div>
-    <div class="row">
-      <div class="one-third column bg">
-        test
-      </div>
-      <div class="one-third column bg">
-        test
-      </div>
-      <div class="one-third column bg">
-        test
-      </div>
+    </center>
     </div>
   </div>
   <!--FOOTER-->
-  <div class="footerdiv">
+  <div id="FOOTER" class="footerdiv">
     <center>
       <div style="padding-top: 0.8rem;">
         <div class="navitems" style="display:inline-block;padding-right:4%;"><a class="footer-link">Contact</a></div>
@@ -110,7 +86,6 @@
       </div>
     </center>
   </div>
-
   <!-- End Document  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <!-- JS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script type="text/javascript" src="js/sheet.js"></script>
