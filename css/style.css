@@ -84,17 +84,17 @@
 }
 
 .active:hover{
-  color:grey;
+  color:darkgrey;
   cursor: pointer;
 }
 
 .inactive{
-  color:#70B77B;
+  color:#19CF86;
   cursor: pointer;
 }
 
 .inactive:hover{
-  color:#077184;
+  color:#19CF86;
 }
 
 .footer-link{
@@ -121,7 +121,7 @@
 }
 
 .link{
-  color:#0dc2e2;
+  color:#19CF86;
   -webkit-touch-callout: all; /* iOS Safari */
   -webkit-user-select: all;   /* Chrome/Safari/Opera */
   -khtml-user-select: all;    /* Konqueror */
@@ -132,7 +132,7 @@
 }
 
 .link:hover{
-  color:#077184;
+  color:#19CF86;
   text-decoration: underline;
 }
 
