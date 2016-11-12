@@ -25,7 +25,8 @@
 .rightside{
   width:15%;
   height:100%;
-  position: left;
+  position: absolute;
+  right: 15px;
 }
 #di{
   position: relative;
