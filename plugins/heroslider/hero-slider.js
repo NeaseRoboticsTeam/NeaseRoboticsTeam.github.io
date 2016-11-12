@@ -5,7 +5,8 @@ var count__test = 1;
 
 var number_of_slides = document.querySelectorAll('#hero-slider .hs-target').length;
 
-window.onload = function() {
+window.addEventListener("load", heroSliderCall, false);
+function heroSliderCall() {
 
   var heroHeight = document.getElementById("hs-grab-for-fitting").offsetHeight;
   var heroWidth = document.getElementById("hero-slider").offsetWidth;
