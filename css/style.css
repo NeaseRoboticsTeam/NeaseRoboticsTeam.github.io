@@ -135,3 +135,6 @@
   color:#077184;
   text-decoration: underline;
 }
+.octicon-code:before {
+	content:'\f05f'
+}
