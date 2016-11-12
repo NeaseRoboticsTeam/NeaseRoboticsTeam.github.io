@@ -135,6 +135,22 @@
   color:#077184;
   text-decoration: underline;
 }
+
+@font-face {
+	font-family:'octicons';
+	src:url(//github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/octicons-e33d9d628416425d305494e8c44e67b8.eot?#iefix) format("embedded-opentype"),url(//github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/octicons-030b0ad780f02e5613417bf2b5cae8d1.woff) format("woff"),url(//github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/octicons-f38098dd57e2f5d24bb98ca12dab909b.ttf) format("truetype"),url(//github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/octicons-6a1c06c4b128b21ae5cf28c0871e5cad.svg#octicons) format("svg");
+	font-weight:normal;
+	font-style:normal
+}
+.octicon {
+	font:normal normal 16px octicons;
+	line-height:1;
+	display:inline-block;
+	text-decoration:none;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale
+}
+
 .octicon-code:before {
 	content:'\f05f'
 }
