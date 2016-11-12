@@ -22,7 +22,11 @@
   -moz-box-shadow: 0px 10px 20px -15px rgba(0,0,0,0.2);
   box-shadow: 0px 10px 20px -15px rgba(0,0,0,0.2);
 }
-
+.rightside{
+  width:15%;
+  height:100%;
+  position: right;
+}
 #di{
   position: relative;
   top: -20px;
