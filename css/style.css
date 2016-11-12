@@ -154,3 +154,11 @@
 .octicon-code:before {
 	content:'\f05f'
 }
+
+.octicon-heart:before {
+	content:'\2665'
+}
+
+.octicon-logo-github:before {
+	content:'\f092'
+}
