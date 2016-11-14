@@ -55,7 +55,6 @@
 .footerdiv{
   height:40px;
   background-color:#d9d9d9;
-  text-decoration: none;
 }
 
 .bg{
@@ -130,12 +129,12 @@
   -ms-user-select: all;       /* Internet Explorer/Edge */
   user-select: all;
   cursor:pointer;
-   text-decoration: none;
+
 }
 
 .link:hover{
   color:#19CF86;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 @font-face {
