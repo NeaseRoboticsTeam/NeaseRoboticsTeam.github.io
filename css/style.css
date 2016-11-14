@@ -130,6 +130,7 @@
   -ms-user-select: all;       /* Internet Explorer/Edge */
   user-select: all;
   cursor:pointer;
+   text-decoration: none;
 }
 
 .link:hover{
