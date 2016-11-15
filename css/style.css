@@ -9,7 +9,9 @@
     position:absolute;
   }
 }
-
+.updates{	
+  height: 533px;
+}
 .headerdiv{
   width:100%;
   height:76px;
@@ -61,7 +63,6 @@
   background-color: white;
   margin-top: 10px;
   padding: 10px;
-  height:100%;	
 }
 
 .uggreen{
