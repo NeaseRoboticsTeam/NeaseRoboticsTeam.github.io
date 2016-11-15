@@ -129,7 +129,10 @@
   -ms-user-select: all;       /* Internet Explorer/Edge */
   user-select: all;
   cursor:pointer;
-
+}
+.updates
+{
+	height:100%;	
 }
 
 .link:hover{
