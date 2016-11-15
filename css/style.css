@@ -59,6 +59,8 @@
   width: 100%;
   height:100%;
   background-color:#d9d9d9;
+  position: absolute;
+  bottom: 0px;
 }
 
 .bg{
