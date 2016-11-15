@@ -20,7 +20,9 @@
   top:0px;
   left:0px;
   z-index:100000;
-
+-webkit-box-shadow: 3px 3px 22px 2px rgba(184,167,184,1);
+-moz-box-shadow: 3px 3px 22px 2px rgba(184,167,184,1);
+box-shadow: 3px 3px 22px 2px rgba(184,167,184,1);
 }
 .rightside{
   width:15%;
