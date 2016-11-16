@@ -58,7 +58,21 @@
   <div style="width:100%;height:76px;"></div>
 
   <!--CONTAINER-->
- 
+       <div class="seven columns bg uggreen updates">
+        <h1>Resources</h1>
+        <p id="demo">
+        » WPI Robotics Library Guide - <a class="link" href="http://first.wpi.edu/Images/CMS/First/WPI_Robotics_Library_Users_Guide.pdf">Click Here</a>
+        </p>
+        <p id="demo">
+        » Chief Delphi FRC Forum - <a class="link" href="https://www.chiefdelphi.com/forums/portal.php">Click Here</a>
+        </p>
+        <p id="demo">
+        » The Blue Alliance FRc Forum - <a class="link" href="https://www.thebluealliance.com/">Click Here</a>
+        </p>
+        <p id="demo">
+        » VEX Robotics Store - <a class="link" href="https://www.vexrobotics.com/">Click Here</a>
+        </p>        
+      </div>
   <!--FOOTER-->
   <div id="FOOTER" class="footerdiv">
     <center>
