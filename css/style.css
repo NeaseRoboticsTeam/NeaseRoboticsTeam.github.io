@@ -12,6 +12,9 @@
 .updates{	
   height: 533px;
 }
+.mid{
+  position: middle;
+}
 .headerdiv{
   width:100%;
   height:76px;
