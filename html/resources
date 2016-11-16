@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>NRT - Homepage</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="images/FINAL.png">
+  <link rel="apple-touch-icon image_src" href="images/FINAL.png">
+  <link rel="icon" type="image/x-icon" href="images/FINAL.png">
 
+  <!-- Mobile Specific Metas –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,200,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Rosario" rel="stylesheet">
+
+  <!-- CSS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!--PLUGINS-->
+  <link href="plugins/preloader/preloader-style.css" rel="stylesheet" type="text/css" />
+
+  <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/FINAL.png">
+  </head>
+  
+<body>
+  <!--PRE-LOADER-->
+  <div id="PRELOADER" style="display: block;"></div>
+  
+  <!-- Primary Page Layout –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+  <!--NAVIGATION-->
+  <div id="HEADER" class="headerdiv">
+    <img src="images/FINAL.png" style="height:64px;padding:6px;" />
+    <div class="navitems" style="float:right;padding-right:4%;"><h5 style="margin-top: 2rem;"><a href="html/donate.html" class="inactive">Donate</a></h5></div>
+    <div class="navitems" style="float:right;padding-right:4%;"><h5 style="margin-top: 2rem;"><a href="html/team.html" class="inactive">Team</a></h5></div>
+    <div class="navitems" style="float:right;padding-right:4%;"><h5 style="margin-top: 2rem;"><a href="html/robots.html" class="inactive">Robots</a></h5></div>
+    <div class="navitems" style="float:right;padding-right:4%;"><h5 style="margin-top: 2rem;"><a href="html/gallery.html" class="inactive">Gallery</a></h5></div>
+    <div class="navitems" style="float:right;padding-right:4%;"><h5 style="margin-top: 2rem;"><a href="index.html" class="active">Home</a></h5></div>
+    <div class="dropitems" style="float:right;padding-right:4%;"><img id="dii" src="images/menuicon.png" class="dropitemsimgdown" onclick="mobileNav()" /></div>
+    <center>
+    <div id="di" style="display:none;box-shadow: 0 6px 10px -4px grey;">
+      <a class="droppeditem active" href="index.html"><h3>Home</h3></a>
+      <a class="droppeditem inactive" href="html/gallery.html"><h3>Gallery</h3></a>
+      <a class="droppeditem inactive" href="html/robots.html"><h3>Robots</h3></a>
+      <a class="droppeditem inactive" href="html/team.html"><h3>Team</h3></a>
+      <a class="droppeditem inactive" href="html/donate.html"><h3>Donate</h3></a>
+    </div>
+    </center>
+  </div>
+  
+  <!--NAVIGATION BUMPER-->
+  <div style="width:100%;height:76px;"></div>
+
+  <!--CONTAINER-->
+ 
+  <!--FOOTER-->
+  <div id="FOOTER" class="footerdiv">
+    <center>
+      <div style="padding-top: 0.8rem;">
+        <div class="navitems" style="display:inline-block;padding-right:4%;"><a class="link" href="html/contact.html">Contact</a></div>
+        <div class="navitems" style="display:inline-block;padding-right:4%;">|</div>
+        <div class="navitems" style="display:inline-block;padding-right:4%;"><a class="link">Email</a></div>
+        <div class="navitems" style="display:inline-block;padding-right:4%;">|</div>
+        <div class="navitems" style="display:inline-block;padding-right:4%;"><a class="link" href="https://docs.google.com/document/d/1qJdiVIv8Zdj6EigkwbBgLISv7wl0obuym73JHkXVlrw/edit?usp=sharing">Info</a></div>
+        <div class="navitems" style="display:inline-block;padding-right:4%;">|</div>
+        <div class="navitems" style="display:inline-block;padding-right:4%;"><a class="link" href="https://github.com/neaseroboticsteam"><span class="octicon octicon-code"></span> with <span class="octicon octicon-heart"></span> by <span class="octicon octicon-logo-github"></span></a></div>
+      </div>
+    </center>
+  </div>
+  <!-- End Document –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+  <!-- JS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="js/navscript.js"></script>
+
+</body>
+</html>
