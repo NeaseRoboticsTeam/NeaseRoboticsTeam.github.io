@@ -31,26 +31,7 @@
   border-bottom-right-radius: 10px;
   opacity: .5;
 }
-:hover #hero-prev {
-  position: absolute;
-  left: 0px;
-  height: 75px;
-  width: 50px;
-  background-color: black;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  opacity: .5;
-}
-:hover #hero-next {
-  position: absolute;
-  left: 0px;
-  height: 75px;
-  width: 50px;
-  background-color: black;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  opacity: .5;
-}
+
 .hero-prev-inner {
   position: relative;
   top: 25px;
