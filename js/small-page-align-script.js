@@ -8,7 +8,7 @@ function smallPageAlign(){
 
   document.getElementById('CONTAINER').style.height = containerHeight + "px";
 
-  var rowFromTop = (bodyHeight / 2) - ((rowHeight / 2) + headerHeight);
+  var rowFromTop = (bodyHeight / 2) - ((rowHeight / 2) + (headerHeight + 20));
 
   document.getElementById('ROW').style.top = rowFromTop + "px";
 }

@@ -9,12 +9,7 @@
     position:absolute;
   }
 }
-.updates{	
-  height: 533px;
-}
-.mid{
-  right: 50%;
-}
+
 .headerdiv{
   width:100%;
   height:76px;
@@ -60,7 +55,7 @@
 
 .footerdiv{
   width: 100%;
-  height:100%;
+  height: 50px;
   background-color:#d9d9d9;
   bottom: 0px;
 }
@@ -177,4 +172,10 @@ box-shadow: 3px 3px 22px 2px rgba(209,209,209,1);
 /*twitters customizeable features*/
 a.customisable-highlight {
   color:#19CF86;
+}
+
+.ground-footer {
+  z-index: 3;
+  position: absolute;
+  bottom: 0px;
 }
