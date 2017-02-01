@@ -20,7 +20,7 @@
   box-shadow: 0px 10px 20px -15px rgba(0,0,0,0.2);
   top:0px;
   left:0px;
-  z-index:100000;
+  z-index:100;
 }
 .rightside{
   width:15%;
@@ -178,46 +178,3 @@ a.customisable-highlight {
   position: absolute;
   bottom: 0px;
 }
-
-/*galimg stands for gallery images hence the gal-img*/
-
-.galimg {
-  float: left;
-  display: inline;
-  vertical-align: top;
-  background-color: darkgrey;
-  background-position: center;
-  background-size: cover;
-  transition: 0.05s ease-out;
-}
-@media (min-width: 100px) {
-  .galimg { width: 48%; }
-  .galimg {
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    padding: 0px;
-    padding-top: 40%
-  }
-}
-@media (min-width: 800px) {
-  .galimg { width: 31%; }
-  .galimg {
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    padding: 0px;
-    padding-top: 30%
-  }
-  .galimg:hover {
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 34%;
-    padding-left: 2%;
-}
-
-/*end of my gallery magic in css*/
