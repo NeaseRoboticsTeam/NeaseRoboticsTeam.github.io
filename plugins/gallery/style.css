@@ -14,6 +14,7 @@
   box-shadow: 3px 3px 22px 2px rgba(209,209,209,1);
 }
 .galimg img{
+  position: center;
   height: 100%;
   width: 100%;
   object-fit: cover;
