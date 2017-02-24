@@ -173,6 +173,10 @@ a.customisable-highlight {
   color:#19CF86;
 }
 
+.mid{
+position: center;
+}
+
 .ground-footer {
   z-index: 3;
   position: absolute;
