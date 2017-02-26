@@ -5,4 +5,4 @@ GitHub organization for the Nease Positronic Panthers
 
 "It Works..." ~Josiah Papovitch
 
-"It's engineerings problem now." ~Will English
+"In theory" ~Will English
