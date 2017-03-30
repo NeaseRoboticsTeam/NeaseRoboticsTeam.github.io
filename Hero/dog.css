@@ -1,0 +1,184 @@
+@media (min-width: 601px) {
+  .headerdiv{
+    position:fixed;
+  }
+}
+
+@media (max-width: 600px) {
+  .headerdiv{
+    position:absolute;
+  }
+}
+
+.headerdiv{
+  width:100%;
+  height:76px;
+  background-color: #D3D3D3;
+  opacity: .99;
+  -webkit-box-shadow: 0px 10px 20px -15px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 10px 20px -15px rgba(0,0,0,0.2);
+  box-shadow: 0px 10px 20px -15px rgba(0,0,0,0.2);
+  top:0px;
+  left:0px;
+  z-index:100;
+}
+.rightside{
+  width:15%;
+  height:100%;
+  position: absolute;
+  right: 25px;
+}
+#di{
+  position: relative;
+  top: -20px;
+  background-color: white;
+}
+
+.droppeditem{
+  width:300px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.dropitemsimgdown{
+  height:64px;
+  transition: 0.5s ease-out;
+  transform: rotate(180deg);
+}
+
+.dropitemsimgup{
+  height:64px;
+  transition: .5s ease-out;
+  transform: rotate(0deg);
+}
+
+.footerdiv{
+  width: 100%;
+  height: 50px;
+  background-color:#d9d9d9;
+  bottom: 0px;
+}
+
+.bg{
+  background-color: white;
+  margin-top: 40px;
+  padding: 10px;
+-webkit-box-shadow: 3px 3px 22px 2px rgba(209,209,209,1);
+-moz-box-shadow: 3px 3px 22px 2px rgba(209,209,209,1);
+box-shadow: 3px 3px 22px 2px rgba(209,209,209,1);
+}
+
+.uggreen{
+  border-bottom: 5px solid #ccffcc;
+}
+
+.uggrey{
+  border-bottom: 5px solid #e6e6e6;
+}
+
+.ugred{
+  border-bottom: 5px solid #ffcccc;
+}
+
+.ugtwitterblue{
+  border-bottom: 5px solid #55acee;
+}
+
+.active{
+  color:darkgrey;
+}
+
+.active:hover{
+  color:darkgrey;
+  cursor: pointer;
+}
+
+.inactive{
+  color:white;
+  cursor: pointer;
+}
+
+.inactive:hover{
+  color:#19CF86;
+}
+
+.footer-link{
+  color:black;
+}
+
+.footer-link:hover{
+  color:gray;
+  cursor: pointer;
+}
+
+.footer-link:visited{
+  color:black;
+}
+
+.small-page{
+  position: relative;
+}
+
+.small-page-box{
+  -webkit-box-shadow: 0px 10px 20px -15px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 10px 20px -15px rgba(0,0,0,0.5);
+  box-shadow: 0px 10px 20px -15px rgba(0,0,0,0.5);
+}
+
+.link{
+  color:#19CF86;
+  -webkit-touch-callout: all; /* iOS Safari */
+  -webkit-user-select: all;   /* Chrome/Safari/Opera */
+  -khtml-user-select: all;    /* Konqueror */
+  -moz-user-select: all;      /* Firefox */
+  -ms-user-select: all;       /* Internet Explorer/Edge */
+  user-select: all;
+  cursor:pointer;
+}
+
+.link:hover{
+  color:#19CF86;
+  text-decoration: none;
+}
+
+@font-face {
+	font-family:'octicons';
+	src:url(//github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/octicons-e33d9d628416425d305494e8c44e67b8.eot?#iefix) format("embedded-opentype"),url(//github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/octicons-030b0ad780f02e5613417bf2b5cae8d1.woff) format("woff"),url(//github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/octicons-f38098dd57e2f5d24bb98ca12dab909b.ttf) format("truetype"),url(//github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/octicons-6a1c06c4b128b21ae5cf28c0871e5cad.svg#octicons) format("svg");
+	font-weight:normal;
+	font-style:normal
+}
+.octicon {
+	font:normal normal 16px octicons;
+	line-height:1;
+	display:inline-block;
+	text-decoration:none;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale
+}
+
+.octicon-code:before {
+	content:'\f05f'
+}
+
+.octicon-heart:before {
+	content:'\2665'
+}
+
+.octicon-logo-github:before {
+	content:'\f092'
+}
+
+/*twitters customizeable features*/
+a.customisable-highlight {
+  color:#19CF86;
+}
+
+.mid{
+position: center;
+}
+
+.ground-footer {
+  z-index: 3;
+  position: absolute;
+  bottom: 0px;
+}
