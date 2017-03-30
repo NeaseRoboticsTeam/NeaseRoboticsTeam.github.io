@@ -125,7 +125,7 @@ box-shadow: 3px 3px 22px 2px rgba(209,209,209,1);
 }
 
 .link{
-  color:#19CF86;
+  color:#e7e5bd;
   -webkit-touch-callout: all; /* iOS Safari */
   -webkit-user-select: all;   /* Chrome/Safari/Opera */
   -khtml-user-select: all;    /* Konqueror */
@@ -136,7 +136,7 @@ box-shadow: 3px 3px 22px 2px rgba(209,209,209,1);
 }
 
 .link:hover{
-  color:#19CF86;
+  color:#e7e5bd;
   text-decoration: none;
 }
 
