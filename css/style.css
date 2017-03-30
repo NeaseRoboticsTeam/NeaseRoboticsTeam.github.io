@@ -98,7 +98,7 @@ box-shadow: 3px 3px 22px 2px rgba(209,209,209,1);
 }
 
 .inactive:hover{
-  color:#19CF86;
+  color:rgba(209,209,209,1);
 }
 
 .footer-link{
