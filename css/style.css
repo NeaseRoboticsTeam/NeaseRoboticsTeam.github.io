@@ -84,11 +84,11 @@ box-shadow: 3px 3px 22px 2px rgba(209,209,209,1);
 }
 
 .active{
-  color:darkgrey;
+  color: #cfcb7d;
 }
 
 .active:hover{
-  color:darkgrey;
+  color: #cfcb7d;
   cursor: pointer;
 }
 
@@ -98,7 +98,7 @@ box-shadow: 3px 3px 22px 2px rgba(209,209,209,1);
 }
 
 .inactive:hover{
-  color:rgba(209,209,209,1);
+  color: #eae9c7;
 }
 
 .footer-link{
