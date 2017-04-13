@@ -5,4 +5,4 @@ GitHub organization for the Nease Positronic Panthers
 
 "It Works..." ~Josiah Papovitch
 
-"In theory" ~Will English
+"Gimme a sec" ~Will English
