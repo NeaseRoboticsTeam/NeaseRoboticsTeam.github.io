@@ -147,7 +147,8 @@ body {
   font-weight: 400;
   font-family: 'Rosario', sans-serif;
   color: #222;
-  background-image:url("../images/background.png")
+  background-image:url("../images/background.png");
+  filter:blur(5px); 
 }
 
 
@@ -298,7 +299,7 @@ fieldset {
 input[type="checkbox"],
 input[type="radio"] {
   display: inline; }
-label > .label-body {
+  label > .label-body {
   display: inline-block;
   margin-left: .5rem;
   font-weight: normal; }
