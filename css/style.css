@@ -179,6 +179,6 @@ position: center;
 
 .ground-footer {
   z-index: 3;
-  position: absolute;
+  position: fixed;
   bottom: 0px;
 }
