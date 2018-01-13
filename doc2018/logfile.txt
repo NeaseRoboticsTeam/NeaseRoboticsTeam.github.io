@@ -1,0 +1,399 @@
+Project documentation
+<---- javadoc command: ---->
+C:\Program Files (x86)\BlueJ\jdk\bin\javadoc.exe
+-sourcepath
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master
+-source
+1.8
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.11.jar;C:\Program Files (x86)\BlueJ\lib\hamcrest-core-1.3.jar;C:\Program Files (x86)\BlueJ\lib\lang-stride.jar;C:\Users\Rishabh Singh\Downloads\JNativeHook.jar;C:\Users\Rishabh Singh\Downloads\javasysmon_2.10-0.3.4;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-core.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-device.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-gpio-extension.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-service.jar;C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master
+-d
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc
+-encoding
+windows-1252
+-charset
+windows-1252
+-docletpath
+C:\Program Files (x86)\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+-doctitle
+2018-Bot-Code-master
+-windowtitle
+2018-Bot-Code-master
+-author
+-version
+-nodeprecated
+-package
+-link
+http://download.oracle.com/javase/8/docs/api/
+cubeMover2001.src.org.usfirst.frc6468.cubeMover2001
+cubeMover2001.src.org.usfirst.frc6468.cubeMover2001.subsystems
+cubeMover2001.src.org.usfirst.frc6468.cubeMover2001.commands
+<---- end of javadoc command ---->
+Loading source files for package cubeMover2001.src.org.usfirst.frc6468.cubeMover2001...
+Loading source files for package cubeMover2001.src.org.usfirst.frc6468.cubeMover2001.subsystems...
+Loading source files for package cubeMover2001.src.org.usfirst.frc6468.cubeMover2001.commands...
+Constructing Javadoc information...
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\OI.java:14: error: package org.usfirst.frc6468.cubeMover2001.commands does not exist
+import org.usfirst.frc6468.cubeMover2001.commands.*;
+^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\OI.java:15: error: package edu.wpi.first.wpilibj.smartdashboard does not exist
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+                                           ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\OI.java:16: error: package edu.wpi.first.wpilibj does not exist
+import edu.wpi.first.wpilibj.Joystick;
+                            ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\OI.java:17: error: package edu.wpi.first.wpilibj does not exist
+import edu.wpi.first.wpilibj.XboxController;
+                            ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\OI.java:18: error: package edu.wpi.first.wpilibj.buttons does not exist
+import edu.wpi.first.wpilibj.buttons.*;
+^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\OI.java:19: error: package org.usfirst.frc6468.cubeMover2001.subsystems does not exist
+import org.usfirst.frc6468.cubeMover2001.subsystems.*;
+^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\OI.java:56: error: cannot find symbol
+    public JoystickButton leftBump;
+           ^
+  symbol:   class JoystickButton
+  location: class OI
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\OI.java:57: error: cannot find symbol
+    public JoystickButton rightBump;
+           ^
+  symbol:   class JoystickButton
+  location: class OI
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\OI.java:58: error: cannot find symbol
+    public Xbox gamePad;
+           ^
+  symbol:   class Xbox
+  location: class OI
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\OI.java:101: error: cannot find symbol
+    public Joystick getXBox() {
+           ^
+  symbol:   class Joystick
+  location: class OI
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\OI.java:105: error: cannot find symbol
+    public Joystick getJoystick2() {
+           ^
+  symbol:   class Joystick
+  location: class OI
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\OI.java:109: error: cannot find symbol
+    public Joystick getJoystick3() {
+           ^
+  symbol:   class Joystick
+  location: class OI
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\Robot.java:14: error: package edu.wpi.first.wpilibj does not exist
+import edu.wpi.first.wpilibj.IterativeRobot;
+                            ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\Robot.java:15: error: package edu.wpi.first.wpilibj.command does not exist
+import edu.wpi.first.wpilibj.command.Command;
+                                    ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\Robot.java:16: error: package edu.wpi.first.wpilibj.command does not exist
+import edu.wpi.first.wpilibj.command.Scheduler;
+                                    ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\Robot.java:17: error: package edu.wpi.first.wpilibj.livewindow does not exist
+import edu.wpi.first.wpilibj.livewindow.LiveWindow;
+                                       ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\Robot.java:18: error: package org.usfirst.frc6468.cubeMover2001.commands does not exist
+import org.usfirst.frc6468.cubeMover2001.commands.*;
+^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\Robot.java:19: error: package org.usfirst.frc6468.cubeMover2001.subsystems does not exist
+import org.usfirst.frc6468.cubeMover2001.subsystems.*;
+^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\Robot.java:28: error: cannot find symbol
+public class Robot extends IterativeRobot {
+                           ^
+  symbol: class IterativeRobot
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\Robot.java:30: error: cannot find symbol
+    Command autonomousCommand;
+    ^
+  symbol:   class Command
+  location: class Robot
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\Robot.java:34: error: cannot find symbol
+    public static slideTrain slideTrain;
+                  ^
+  symbol:   class slideTrain
+  location: class Robot
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\Robot.java:35: error: cannot find symbol
+    public static verticalLift verticalLift;
+                  ^
+  symbol:   class verticalLift
+  location: class Robot
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\Robot.java:36: error: cannot find symbol
+    public static claw claw;
+                  ^
+  symbol:   class claw
+  location: class Robot
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\RobotMap.java:15: error: package edu.wpi.first.wpilibj does not exist
+import edu.wpi.first.wpilibj.RobotDrive;
+                            ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\RobotMap.java:16: error: package edu.wpi.first.wpilibj does not exist
+import edu.wpi.first.wpilibj.Servo;
+                            ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\RobotMap.java:17: error: package edu.wpi.first.wpilibj does not exist
+import edu.wpi.first.wpilibj.Spark;
+                            ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\RobotMap.java:18: error: package edu.wpi.first.wpilibj does not exist
+import edu.wpi.first.wpilibj.SpeedController;
+                            ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\RobotMap.java:21: error: package edu.wpi.first.wpilibj.livewindow does not exist
+import edu.wpi.first.wpilibj.livewindow.LiveWindow;
+                                       ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\RobotMap.java:31: error: cannot find symbol
+    public static SpeedController slideTrainslider;
+                  ^
+  symbol:   class SpeedController
+  location: class RobotMap
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\RobotMap.java:32: error: cannot find symbol
+    public static SpeedController slideTrainleftSide;
+                  ^
+  symbol:   class SpeedController
+  location: class RobotMap
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\RobotMap.java:33: error: cannot find symbol
+    public static SpeedController slideTrainrightSide;
+                  ^
+  symbol:   class SpeedController
+  location: class RobotMap
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\RobotMap.java:34: error: cannot find symbol
+    public static RobotDrive slideTrainRobotDrive21;
+                  ^
+  symbol:   class RobotDrive
+  location: class RobotMap
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\RobotMap.java:35: error: cannot find symbol
+    public static SpeedController verticalLiftliftMotor;
+                  ^
+  symbol:   class SpeedController
+  location: class RobotMap
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\RobotMap.java:36: error: cannot find symbol
+    public static Servo clawclawServo;
+                  ^
+  symbol:   class Servo
+  location: class RobotMap
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\claw.java:14: error: package org.usfirst.frc6468.cubeMover2001 does not exist
+import org.usfirst.frc6468.cubeMover2001.RobotMap;
+                                        ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\claw.java:15: error: package org.usfirst.frc6468.cubeMover2001.commands does not exist
+import org.usfirst.frc6468.cubeMover2001.commands.*;
+^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\claw.java:16: error: package edu.wpi.first.wpilibj does not exist
+import edu.wpi.first.wpilibj.Servo;
+                            ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\claw.java:18: error: package edu.wpi.first.wpilibj.command does not exist
+import edu.wpi.first.wpilibj.command.Subsystem;
+                                    ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\claw.java:24: error: cannot find symbol
+public class claw extends Subsystem {
+                          ^
+  symbol: class Subsystem
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\claw.java:31: error: cannot find symbol
+    private final Servo clawServo = RobotMap.clawclawServo;
+                  ^
+  symbol:   class Servo
+  location: class claw
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\slideTrain.java:14: error: package org.usfirst.frc6468.cubeMover2001 does not exist
+import org.usfirst.frc6468.cubeMover2001.RobotMap;
+                                        ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\slideTrain.java:15: error: package org.usfirst.frc6468.cubeMover2001.commands does not exist
+import org.usfirst.frc6468.cubeMover2001.commands.*;
+^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\slideTrain.java:16: error: package edu.wpi.first.wpilibj does not exist
+import edu.wpi.first.wpilibj.RobotDrive;
+                            ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\slideTrain.java:17: error: package edu.wpi.first.wpilibj does not exist
+import edu.wpi.first.wpilibj.Spark;
+                            ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\slideTrain.java:18: error: package edu.wpi.first.wpilibj does not exist
+import edu.wpi.first.wpilibj.SpeedController;
+                            ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\slideTrain.java:20: error: package edu.wpi.first.wpilibj.command does not exist
+import edu.wpi.first.wpilibj.command.Subsystem;
+                                    ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\slideTrain.java:26: error: cannot find symbol
+public class slideTrain extends Subsystem {
+                                ^
+  symbol: class Subsystem
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\slideTrain.java:33: error: cannot find symbol
+    private final SpeedController slider = RobotMap.slideTrainslider;
+                  ^
+  symbol:   class SpeedController
+  location: class slideTrain
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\slideTrain.java:34: error: cannot find symbol
+    private final SpeedController leftSide = RobotMap.slideTrainleftSide;
+                  ^
+  symbol:   class SpeedController
+  location: class slideTrain
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\slideTrain.java:35: error: cannot find symbol
+    private final SpeedController rightSide = RobotMap.slideTrainrightSide;
+                  ^
+  symbol:   class SpeedController
+  location: class slideTrain
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\slideTrain.java:36: error: cannot find symbol
+    private final RobotDrive robotDrive21 = RobotMap.slideTrainRobotDrive21;
+                  ^
+  symbol:   class RobotDrive
+  location: class slideTrain
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\verticalLift.java:14: error: package org.usfirst.frc6468.cubeMover2001 does not exist
+import org.usfirst.frc6468.cubeMover2001.RobotMap;
+                                        ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\verticalLift.java:15: error: package org.usfirst.frc6468.cubeMover2001.commands does not exist
+import org.usfirst.frc6468.cubeMover2001.commands.*;
+^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\verticalLift.java:16: error: package edu.wpi.first.wpilibj does not exist
+import edu.wpi.first.wpilibj.Spark;
+                            ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\verticalLift.java:17: error: package edu.wpi.first.wpilibj does not exist
+import edu.wpi.first.wpilibj.SpeedController;
+                            ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\verticalLift.java:19: error: package edu.wpi.first.wpilibj.command does not exist
+import edu.wpi.first.wpilibj.command.Subsystem;
+                                    ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\verticalLift.java:25: error: cannot find symbol
+public class verticalLift extends Subsystem {
+                                  ^
+  symbol: class Subsystem
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\verticalLift.java:32: error: cannot find symbol
+    private final SpeedController liftMotor = RobotMap.verticalLiftliftMotor;
+                  ^
+  symbol:   class SpeedController
+  location: class verticalLift
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\Autonomous.java:13: error: package edu.wpi.first.wpilibj.command does not exist
+import edu.wpi.first.wpilibj.command.Command;
+                                    ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\Autonomous.java:14: error: package org.usfirst.frc6468.cubeMover2001 does not exist
+import org.usfirst.frc6468.cubeMover2001.Robot;
+                                        ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\Autonomous.java:19: error: cannot find symbol
+public class Autonomous extends Command {
+                                ^
+  symbol: class Command
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\climb.java:13: error: package edu.wpi.first.wpilibj.command does not exist
+import edu.wpi.first.wpilibj.command.Command;
+                                    ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\climb.java:14: error: package org.usfirst.frc6468.cubeMover2001 does not exist
+import org.usfirst.frc6468.cubeMover2001.Robot;
+                                        ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\climb.java:19: error: cannot find symbol
+public class climb extends Command {
+                           ^
+  symbol: class Command
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\closeClaw.java:13: error: package edu.wpi.first.wpilibj.command does not exist
+import edu.wpi.first.wpilibj.command.Command;
+                                    ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\closeClaw.java:14: error: package org.usfirst.frc6468.cubeMover2001 does not exist
+import org.usfirst.frc6468.cubeMover2001.Robot;
+                                        ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\closeClaw.java:19: error: cannot find symbol
+public class closeClaw extends Command {
+                               ^
+  symbol: class Command
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\driveStraight.java:13: error: package edu.wpi.first.wpilibj.command does not exist
+import edu.wpi.first.wpilibj.command.Command;
+                                    ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\driveStraight.java:14: error: package org.usfirst.frc6468.cubeMover2001 does not exist
+import org.usfirst.frc6468.cubeMover2001.Robot;
+                                        ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\driveStraight.java:19: error: cannot find symbol
+public class driveStraight extends Command {
+                                   ^
+  symbol: class Command
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\dropDown.java:13: error: package edu.wpi.first.wpilibj.command does not exist
+import edu.wpi.first.wpilibj.command.Command;
+                                    ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\dropDown.java:14: error: package org.usfirst.frc6468.cubeMover2001 does not exist
+import org.usfirst.frc6468.cubeMover2001.Robot;
+                                        ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\dropDown.java:19: error: cannot find symbol
+public class dropDown extends Command {
+                              ^
+  symbol: class Command
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\liftUp.java:13: error: package edu.wpi.first.wpilibj.command does not exist
+import edu.wpi.first.wpilibj.command.Command;
+                                    ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\liftUp.java:14: error: package org.usfirst.frc6468.cubeMover2001 does not exist
+import org.usfirst.frc6468.cubeMover2001.Robot;
+                                        ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\liftUp.java:19: error: cannot find symbol
+public class liftUp extends Command {
+                            ^
+  symbol: class Command
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\moveWithSticks.java:13: error: package edu.wpi.first.wpilibj.command does not exist
+import edu.wpi.first.wpilibj.command.Command;
+                                    ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\moveWithSticks.java:14: error: package org.usfirst.frc6468.cubeMover2001 does not exist
+import org.usfirst.frc6468.cubeMover2001.Robot;
+                                        ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\moveWithSticks.java:19: error: cannot find symbol
+public class moveWithSticks extends Command {
+                                    ^
+  symbol: class Command
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\openClaw.java:13: error: package edu.wpi.first.wpilibj.command does not exist
+import edu.wpi.first.wpilibj.command.Command;
+                                    ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\openClaw.java:14: error: package org.usfirst.frc6468.cubeMover2001 does not exist
+import org.usfirst.frc6468.cubeMover2001.Robot;
+                                        ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\openClaw.java:19: error: cannot find symbol
+public class openClaw extends Command {
+                              ^
+  symbol: class Command
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\slideLeft.java:13: error: package edu.wpi.first.wpilibj.command does not exist
+import edu.wpi.first.wpilibj.command.Command;
+                                    ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\slideLeft.java:14: error: package org.usfirst.frc6468.cubeMover2001 does not exist
+import org.usfirst.frc6468.cubeMover2001.Robot;
+                                        ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\slideLeft.java:19: error: cannot find symbol
+public class slideLeft extends Command {
+                               ^
+  symbol: class Command
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\slideRight.java:13: error: package edu.wpi.first.wpilibj.command does not exist
+import edu.wpi.first.wpilibj.command.Command;
+                                    ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\slideRight.java:14: error: package org.usfirst.frc6468.cubeMover2001 does not exist
+import org.usfirst.frc6468.cubeMover2001.Robot;
+                                        ^
+C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\slideRight.java:19: error: cannot find symbol
+public class slideRight extends Command {
+                                ^
+  symbol: class Command
+Standard Doclet version 1.8.0_121
+Building tree for all the packages and classes...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\OI.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\Robot.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\RobotMap.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\claw.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\slideTrain.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\verticalLift.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\Autonomous.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\climb.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\closeClaw.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\driveStraight.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\dropDown.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\liftUp.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\moveWithSticks.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\openClaw.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\slideLeft.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\slideRight.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\overview-frame.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\package-frame.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\package-summary.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\package-tree.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\package-frame.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\package-summary.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\commands\package-tree.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\package-frame.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\package-summary.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\cubeMover2001\src\org\usfirst\frc6468\cubeMover2001\subsystems\package-tree.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\constant-values.html...
+Building index for all the packages and classes...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\overview-tree.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\index-all.html...
+Building index for all classes...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\allclasses-frame.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\allclasses-noframe.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\index.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\overview-summary.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\help-doc.html...
+Generating C:\Users\Rishabh Singh\Desktop\2018-Bot-Code-master\doc\stylesheet.css...
+88 warnings
